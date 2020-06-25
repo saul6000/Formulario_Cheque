@@ -37,9 +37,10 @@ namespace Formulario_Cheque
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            
             timer1.Start();
-            
-            
+           
+
         }
 
         private void alphaBlendTextBox1_KeyDown_1(object sender, KeyEventArgs e)
@@ -80,6 +81,11 @@ namespace Formulario_Cheque
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
