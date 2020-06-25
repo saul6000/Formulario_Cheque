@@ -22,9 +22,9 @@ namespace Formulario_Cheque
      
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            e.Graphics.DrawImage(bmp, 0,0);
+            
         }
-        Bitmap bmp;
+       
 
         private void Formulariocheque_Load(object sender, EventArgs e)
         {
@@ -37,9 +37,10 @@ namespace Formulario_Cheque
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            
+            printDocument1.Print();
             timer1.Start();
-           
+         
+
 
         }
 
